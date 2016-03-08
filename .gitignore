@@ -2,3 +2,4 @@ node_modules
 ember_files/node_modules
 ember_files/bower_components
 .env
+npm-debug.log
