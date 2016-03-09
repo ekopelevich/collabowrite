@@ -9,10 +9,10 @@ var port = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + '/public'));
 
-require('./routes/routes')(app);
+require('./app/routes')(app);
 
 app.listen(port, function(){
-  console.log('Server is listening on ' + port);
+  console.log('Server is listening on port ' + port);
 });
 
 exports = module.exports = app;

@@ -1,5 +1,5 @@
 node_modules
-ember_files/node_modules
-ember_files/bower_components
+client/node_modules
+client/bower_components
 .env
 npm-debug.log
