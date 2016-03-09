@@ -1,7 +1,7 @@
 var knex = require('knex')({
-  client: 'mysql',
+  client: 'pg',
   connection: {
-    host     : '127.0.0.1',
+    host     : 'localhost:8000/cw_db',
     user     : 'cw_admin',
     password : 'cw_password',
     database : 'cw_db',
@@ -9,7 +9,7 @@ var knex = require('knex')({
   }
 });
 
-var bookshelf = require('bookshelf')(knex);
+// var bookshelf = require('bookshelf')(knex);
 
 var User = bookshelf.Model.extend({
   tableName: 'users'

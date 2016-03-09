@@ -4,13 +4,11 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: './dev.sqlite3'
-    }
+    connection: ''
   },
 
   production: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
       database: 'cw_db',
       user:     'cw_admin',

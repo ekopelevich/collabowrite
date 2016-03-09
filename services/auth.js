@@ -2,7 +2,7 @@ var route = require('express').Router();
 var session = require('express-session');
 var passport = require('passport');
 var TwitterStrategy = require('passport-twitter').Strategy;
-var bookshelf = require('./db');
+// var knex = require('./db');
 var Promise = require('promise');
 
 module.exports = route;
