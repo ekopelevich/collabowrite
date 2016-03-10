@@ -4,19 +4,15 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: ''
+    connection: 'postgres://localhost/cw_db'
   },
 
   production: {
     client: 'pg',
-    connection: {
-      database: 'cw_db',
-      user:     'cw_admin',
-      password: 'cw_password'
-    },
-    migrations: {
-      tableName: 'knex_migrations'
-    }
-  }
+    connection: process.env.DATABASE_URL
+  },
 
+  // migrations: {
+  //   tableName: 'knex_migrations'
+  // }
 };
