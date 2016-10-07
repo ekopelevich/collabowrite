@@ -1,0 +1,31 @@
+{
+  "name": "collabowrite",
+  "version": "1.0.0",
+  "description": "A collaborative storytelling platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Elana Kopelevich",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ekopelevich/collabowrite.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "knex": "^0.10.0",
+    "moment": "^2.12.0",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4",
+    "pg": "^4.5.1",
+    "promise": "^7.1.1",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
