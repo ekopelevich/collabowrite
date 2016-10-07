@@ -1,3 +1,8 @@
-# collabowrite
+# CollaboWrite
 
-Deployed at: https://lit-sands-20903.herokuapp.com/
+CollaboWrite is a collaborative writing and comic creating platform.
+
+Client repo:
+Server repo:
+
+Deployed at: [collabowrite.co]('http://www.collabowrite.co')
